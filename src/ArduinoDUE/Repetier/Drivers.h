@@ -15,7 +15,7 @@ G204 P<motorId> S<0/1>     - Enable/disable motor
 
 These motors are already special and there might be different types, so we can not assume
 one class fits all needs. So to keep it simple, the firmware defines this general
-interface whcih a motor must implement. That way we can handle any type without changing
+interface which a motor must implement. That way we can handle any type without changing
 the main code.
 */
 class MotorDriverInterface
